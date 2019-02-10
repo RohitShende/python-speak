@@ -27,3 +27,6 @@ def recognize(audio_file):
         return "Google Speech Recognition could not understand audio"
     except sr.RequestError as e:
         return "Could not request results from Google Speech Recognition service; {0}".format(e)
+
+
+# print(recognize(listen()))
